@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "original_columns": [
+    "col1",
+    "col2"
+  ],
+  "mapping": {
+    "col1": "unmapped",
+    "col2": "unmapped"
+  },
+  "canonical_fields_found": [],
+  "brand_fields_found": [],
+  "unmapped_fields": [
+    "col1",
+    "col2"
+  ]
+}

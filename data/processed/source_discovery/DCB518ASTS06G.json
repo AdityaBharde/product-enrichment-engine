@@ -1,0 +1,97 @@
+{
+  "product_mpn": "DCB518ASTS06G",
+  "status": "success",
+  "sources": [
+    {
+      "url": "https://www.freudtools.com/",
+      "title": "Freud Tools",
+      "snippet": "Official Website of Freud Tools. Learn about Freud's line up of best in the world Saw Blades, Router Bits, Drilling & Boring, Cutterheads, Knives & Inserts, ...",
+      "domain": "freudtools.com",
+      "source_type": "manufacturer_product_page",
+      "authority_score": 1.0,
+      "relevance_score": 0.4,
+      "exact_mpn_match": false,
+      "manufacturer_domain_match": true,
+      "discovery_query": "Freud Inc DCB518ASTS06G official product page",
+      "rank": 1
+    },
+    {
+      "url": "http://www1.mscdirect.com/MSDS/MSDS00040/85574945-20150711.PDF",
+      "title": "MATERIAL SAFETY DATA SHEET Abrasive Sanding Belt",
+      "snippet": "Abrasive sanding Belt Manufacturer: TRU-MAXX. Aluminum Oxide 15 mg/m3 (total dust) 10 mg/m3 Silicon Carbide below the TLVs.",
+      "domain": "www1.mscdirect.com",
+      "source_type": "distributor",
+      "authority_score": 0.5,
+      "relevance_score": 0.1,
+      "exact_mpn_match": false,
+      "manufacturer_domain_match": false,
+      "discovery_query": "Freud Inc DCB518ASTS06G Abrasive Material specifications PDF",
+      "rank": 2
+    },
+    {
+      "url": "https://www.dkhardware.com/diablo-dcb518asts06g-sanding-belt-asrtd-1-2-x-18in-pack-of-6-product-7874581.html?srsltid=AfmBOop6twmlq5ndKcdvsRo3sGwuHKdR0NbIg1MVifVjsQSJhN-UCkbb",
+      "title": "Diablo DCB518ASTS06G Sanding Belt, 1/2 in W, 18 in L ...",
+      "snippet": "B518ASTS06G Sanding Belt, 1/2 in W, In Stock $17.63 /card. Assorted pack includes two 50 grit/coarse grit sanding belts for surface leveling and heavy stock/ ...",
+      "domain": "dkhardware.com",
+      "source_type": "unknown",
+      "authority_score": 0.1,
+      "relevance_score": 0.6,
+      "exact_mpn_match": true,
+      "manufacturer_domain_match": false,
+      "discovery_query": "Freud Inc DCB518ASTS06G official product page",
+      "rank": 3
+    },
+    {
+      "url": "https://www.burnstools.com/dcb518asts06g-1-2x18-assorted-belts-6",
+      "title": "Diablo Tools DCB518ASTS06G 18” Detail File Sanding ...",
+      "snippet": "Diablo's 1/2\" x 18\" detail file sanding belts include break-through innovations that improve performance, extend sanding life, and increase productivity.",
+      "domain": "burnstools.com",
+      "source_type": "unknown",
+      "authority_score": 0.1,
+      "relevance_score": 0.6,
+      "exact_mpn_match": true,
+      "manufacturer_domain_match": false,
+      "discovery_query": "Freud Inc DCB518ASTS06G official product page",
+      "rank": 4
+    },
+    {
+      "url": "https://www.pineislandlumber.com/diablo-dcb518asts06g-sanding-belt-1-2-in-w-18-in-l-50-80-120-grit-coarse-fine-medium-zirconium-abrasive--2",
+      "title": "Diablo DCB518ASTS06G Sanding Belt, 1/2 in W, 18 in L ...",
+      "snippet": "Width. 6.7in ; Length. 10.4in ; Abrasive Material. Zirconium ; Applicable Materials. Metal Plastic Wood ; Backing Material. Cloth.",
+      "domain": "pineislandlumber.com",
+      "source_type": "unknown",
+      "authority_score": 0.1,
+      "relevance_score": 0.6,
+      "exact_mpn_match": true,
+      "manufacturer_domain_match": false,
+      "discovery_query": "Freud Inc DCB518ASTS06G Abrasive Material specifications PDF",
+      "rank": 5
+    },
+    {
+      "url": "https://www.toolmarts.com/freud-dcb318050s02g-diablo-blade-3-inchx18-inch-50g-2-pack?srsltid=AfmBOoqwP_lk4U69tBBswX_jvKOpYaWzAvaG5PVKRuYtbzlPl6QwZ9Ln",
+      "title": "Freud DCB318050S02G Diablo Blade 3 InchX18 Inch 50g",
+      "snippet": "Featuring a premium zirconium blend, these belts remove material faster than other sanding belts and offer an extra long sanding life. Clog-SHIELD™, Diablo's ...",
+      "domain": "toolmarts.com",
+      "source_type": "unknown",
+      "authority_score": 0.1,
+      "relevance_score": 0.1,
+      "exact_mpn_match": false,
+      "manufacturer_domain_match": false,
+      "discovery_query": "Freud Inc DCB518ASTS06G official product page",
+      "rank": 6
+    },
+    {
+      "url": "https://www.freudsharpening.com/product/3-in-x-18-in-assorted-belt-pack-5-piece-/DCB318ASTS05G",
+      "title": "3 In. X 18 In. Assorted Belt Pack (5-piece) | Freud Sharpening",
+      "snippet": "3 in. x 18 in. Assorted Belt Pack (5-Piece) SKU# DCB318ASTS05G UPC# In Stock Ships same day from High Point, NC if ordered by 12PM EST weekdays. Ships via UPS. ...",
+      "domain": "freudsharpening.com",
+      "source_type": "unknown",
+      "authority_score": 0.1,
+      "relevance_score": 0.1,
+      "exact_mpn_match": false,
+      "manufacturer_domain_match": false,
+      "discovery_query": "Freud Inc DCB518ASTS06G official product page",
+      "rank": 7
+    }
+  ]
+}

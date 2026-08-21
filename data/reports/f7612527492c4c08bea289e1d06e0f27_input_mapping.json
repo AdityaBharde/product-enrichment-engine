@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "original_columns": [
+    "id",
+    "brand",
+    "desc"
+  ],
+  "mapping": {
+    "id": "part_number",
+    "desc": "description",
+    "brand": "brand"
+  },
+  "canonical_fields_found": [
+    "description",
+    "part_number"
+  ],
+  "brand_fields_found": [
+    "brand"
+  ],
+  "unmapped_fields": []
+}

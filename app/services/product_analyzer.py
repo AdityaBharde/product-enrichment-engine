@@ -66,8 +66,8 @@ def classify_product(desc: str) -> tuple[str, str, list[str]]:
 def build_search_plan(mpn: str, mfg: str, p_type: str, cat: str, attrs: list[str]) -> SearchPlan:
     
     queries = [
-        f'"{mfg}" "{mpn}" official product page',
-        f'"{mfg}" "{mpn}" {p_type} specifications PDF'
+        f'{mfg} {mpn} official product page',
+        f'{mfg} {mpn} {p_type} specifications PDF'
     ]
     
     return SearchPlan(

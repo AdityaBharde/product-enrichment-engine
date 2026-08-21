@@ -4,14 +4,18 @@ import pandas as pd
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from app.services.profiler import profile_csv
 from app.services.schema_mapper import generate_mapping_report
+from app.models.product_profile import ProductProfile
+from app.services.source_discovery import discover_sources
 
 app = FastAPI(title="ForgeIQ API")
 
 UPLOAD_DIR = os.path.join("data", "uploads")
 REPORTS_DIR = os.path.join("data", "reports")
+DISCOVERY_DIR = os.path.join("data", "processed", "source_discovery")
 
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 os.makedirs(REPORTS_DIR, exist_ok=True)
+os.makedirs(DISCOVERY_DIR, exist_ok=True)
 
 @app.get("/")
 def read_root():
@@ -42,10 +46,8 @@ async def upload_csv(file: UploadFile = File(None)):
         raise HTTPException(status_code=500, detail="Failed to save uploaded file")
     
     try:
-        # Feature 2: Run Profiler
         profile_data, profile_path = profile_csv(file_path)
         
-        # Feature 4: Intelligent Input Schema Mapping
         df_columns = pd.read_csv(file_path, nrows=0).columns.tolist()
         mapping_data, mapping_path = generate_mapping_report(df_columns, file_path)
         
@@ -72,3 +74,18 @@ async def upload_csv(file: UploadFile = File(None)):
             "unmapped_fields": mapping_data["unmapped_fields"]
         }
     }
+
+@app.post("/discover-sources")
+def api_discover_sources(profile: ProductProfile):
+    try:
+        discovery_result = discover_sources(profile)
+        
+        return {
+            "status": discovery_result.status,
+            "product_mpn": discovery_result.product_mpn,
+            "sources_found": len(discovery_result.sources),
+            "top_source_url": discovery_result.sources[0].url if discovery_result.sources else None,
+            "saved_location": f"data/processed/source_discovery/{discovery_result.product_mpn}.json"
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))

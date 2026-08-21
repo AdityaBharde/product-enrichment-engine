@@ -1,0 +1,80 @@
+{
+  "profile_version": "1.0",
+  "dataset": {
+    "rows": 1,
+    "column_count": 2,
+    "columns": [
+      "col1",
+      "col2"
+    ],
+    "duplicate_rows": 0
+  },
+  "columns": {
+    "col1": {
+      "dtype": "str",
+      "non_null": 1,
+      "missing": 0,
+      "unique": 1,
+      "uniqueness_ratio": 1.0
+    },
+    "col2": {
+      "dtype": "str",
+      "non_null": 1,
+      "missing": 0,
+      "unique": 1,
+      "uniqueness_ratio": 1.0
+    }
+  },
+  "missing": {
+    "col1": {
+      "count": 0,
+      "percentage": 0.0,
+      "non_missing": 1
+    },
+    "col2": {
+      "count": 0,
+      "percentage": 0.0,
+      "non_missing": 1
+    }
+  },
+  "unique": {
+    "col1": {
+      "count": 1,
+      "ratio": 1.0
+    },
+    "col2": {
+      "count": 1,
+      "ratio": 1.0
+    }
+  },
+  "placeholders": {},
+  "text_statistics": {
+    "col1": {
+      "min_length": 4,
+      "max_length": 4,
+      "average_length": 4.0,
+      "median_length": 4.0
+    },
+    "col2": {
+      "min_length": 4,
+      "max_length": 4,
+      "average_length": 4.0,
+      "median_length": 4.0
+    }
+  },
+  "top_values": {},
+  "suspicious_columns": [
+    {
+      "column": "col1",
+      "reasons": [
+        "Only one unique non-null value"
+      ]
+    },
+    {
+      "column": "col2",
+      "reasons": [
+        "Only one unique non-null value"
+      ]
+    }
+  ]
+}

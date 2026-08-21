@@ -1,0 +1,127 @@
+{
+  "profile_version": "1.0",
+  "dataset": {
+    "rows": 4,
+    "column_count": 3,
+    "columns": [
+      "id",
+      "brand",
+      "desc"
+    ],
+    "duplicate_rows": 1
+  },
+  "columns": {
+    "id": {
+      "dtype": "int64",
+      "non_null": 4,
+      "missing": 0,
+      "unique": 3,
+      "uniqueness_ratio": 0.75
+    },
+    "brand": {
+      "dtype": "str",
+      "non_null": 3,
+      "missing": 1,
+      "unique": 2,
+      "uniqueness_ratio": 0.6666666666666666
+    },
+    "desc": {
+      "dtype": "str",
+      "non_null": 4,
+      "missing": 0,
+      "unique": 3,
+      "uniqueness_ratio": 0.75
+    }
+  },
+  "missing": {
+    "id": {
+      "count": 0,
+      "percentage": 0.0,
+      "non_missing": 4
+    },
+    "brand": {
+      "count": 1,
+      "percentage": 0.25,
+      "non_missing": 3
+    },
+    "desc": {
+      "count": 0,
+      "percentage": 0.0,
+      "non_missing": 4
+    }
+  },
+  "unique": {
+    "id": {
+      "count": 3,
+      "ratio": 0.75
+    },
+    "brand": {
+      "count": 2,
+      "ratio": 0.6666666666666666
+    },
+    "desc": {
+      "count": 3,
+      "ratio": 0.75
+    }
+  },
+  "placeholders": {
+    "brand": {
+      "-- Unbranded --": 1
+    }
+  },
+  "text_statistics": {
+    "brand": {
+      "min_length": 5,
+      "max_length": 15,
+      "average_length": 8.333333333333334,
+      "median_length": 5.0
+    },
+    "desc": {
+      "min_length": 3,
+      "max_length": 6,
+      "average_length": 4.75,
+      "median_length": 5.0
+    }
+  },
+  "top_values": {
+    "id": [
+      {
+        "value": "1",
+        "count": 2
+      },
+      {
+        "value": "2",
+        "count": 1
+      },
+      {
+        "value": "3",
+        "count": 1
+      }
+    ],
+    "brand": [
+      {
+        "value": "Bosch",
+        "count": 2
+      },
+      {
+        "value": "-- Unbranded --",
+        "count": 1
+      }
+    ],
+    "desc": [
+      {
+        "value": "Drill",
+        "count": 2
+      },
+      {
+        "value": "Saw",
+        "count": 1
+      },
+      {
+        "value": "Hammer",
+        "count": 1
+      }
+    ]
+  },
+  "suspicious_columns": []
+}

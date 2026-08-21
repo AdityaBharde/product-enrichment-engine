@@ -1,0 +1,337 @@
+{
+  "profile_version": "1.0",
+  "dataset": {
+    "rows": 1000,
+    "column_count": 6,
+    "columns": [
+      "Mfg_Part_Num",
+      "Part_Desc",
+      "E1_Brand",
+      "Unilog_Brand",
+      "DIB_Brand",
+      "Part_Manuf"
+    ],
+    "duplicate_rows": 0
+  },
+  "columns": {
+    "Mfg_Part_Num": {
+      "dtype": "str",
+      "non_null": 1000,
+      "missing": 0,
+      "unique": 999,
+      "uniqueness_ratio": 0.999
+    },
+    "Part_Desc": {
+      "dtype": "str",
+      "non_null": 1000,
+      "missing": 0,
+      "unique": 998,
+      "uniqueness_ratio": 0.998
+    },
+    "E1_Brand": {
+      "dtype": "str",
+      "non_null": 1000,
+      "missing": 0,
+      "unique": 13,
+      "uniqueness_ratio": 0.013
+    },
+    "Unilog_Brand": {
+      "dtype": "str",
+      "non_null": 1000,
+      "missing": 0,
+      "unique": 1,
+      "uniqueness_ratio": 0.001
+    },
+    "DIB_Brand": {
+      "dtype": "str",
+      "non_null": 1000,
+      "missing": 0,
+      "unique": 24,
+      "uniqueness_ratio": 0.024
+    },
+    "Part_Manuf": {
+      "dtype": "str",
+      "non_null": 1000,
+      "missing": 0,
+      "unique": 76,
+      "uniqueness_ratio": 0.076
+    }
+  },
+  "missing": {
+    "Mfg_Part_Num": {
+      "count": 0,
+      "percentage": 0.0,
+      "non_missing": 1000
+    },
+    "Part_Desc": {
+      "count": 0,
+      "percentage": 0.0,
+      "non_missing": 1000
+    },
+    "E1_Brand": {
+      "count": 0,
+      "percentage": 0.0,
+      "non_missing": 1000
+    },
+    "Unilog_Brand": {
+      "count": 0,
+      "percentage": 0.0,
+      "non_missing": 1000
+    },
+    "DIB_Brand": {
+      "count": 0,
+      "percentage": 0.0,
+      "non_missing": 1000
+    },
+    "Part_Manuf": {
+      "count": 0,
+      "percentage": 0.0,
+      "non_missing": 1000
+    }
+  },
+  "unique": {
+    "Mfg_Part_Num": {
+      "count": 999,
+      "ratio": 0.999
+    },
+    "Part_Desc": {
+      "count": 998,
+      "ratio": 0.998
+    },
+    "E1_Brand": {
+      "count": 13,
+      "ratio": 0.013
+    },
+    "Unilog_Brand": {
+      "count": 1,
+      "ratio": 0.001
+    },
+    "DIB_Brand": {
+      "count": 24,
+      "ratio": 0.024
+    },
+    "Part_Manuf": {
+      "count": 76,
+      "ratio": 0.076
+    }
+  },
+  "placeholders": {
+    "E1_Brand": {
+      "-- Unbranded --": 799
+    },
+    "Unilog_Brand": {
+      "-- No Unilog Brand --": 1000
+    },
+    "DIB_Brand": {
+      "-- No DIB Brand --": 755
+    },
+    "Part_Manuf": {
+      "-": 41
+    }
+  },
+  "text_statistics": {
+    "Mfg_Part_Num": {
+      "min_length": 4,
+      "max_length": 17,
+      "average_length": 8.16,
+      "median_length": 8.0
+    },
+    "Part_Desc": {
+      "min_length": 13,
+      "max_length": 70,
+      "average_length": 38.258,
+      "median_length": 35.0
+    },
+    "E1_Brand": {
+      "min_length": 3,
+      "max_length": 21,
+      "average_length": 13.352,
+      "median_length": 15.0
+    },
+    "Unilog_Brand": {
+      "min_length": 21,
+      "max_length": 21,
+      "average_length": 21.0,
+      "median_length": 21.0
+    },
+    "DIB_Brand": {
+      "min_length": 2,
+      "max_length": 18,
+      "average_length": 15.267,
+      "median_length": 18.0
+    },
+    "Part_Manuf": {
+      "min_length": 1,
+      "max_length": 42,
+      "average_length": 24.734,
+      "median_length": 24.0
+    }
+  },
+  "top_values": {
+    "E1_Brand": [
+      {
+        "value": "-- Unbranded --",
+        "count": 799
+      },
+      {
+        "value": "TREX",
+        "count": 122
+      },
+      {
+        "value": "TIMBERTECH",
+        "count": 55
+      },
+      {
+        "value": "United Window & Door",
+        "count": 5
+      },
+      {
+        "value": "COMMODITY - UNBRANDED",
+        "count": 4
+      },
+      {
+        "value": "LP SMARTSIDE",
+        "count": 4
+      },
+      {
+        "value": "DSI Westbury",
+        "count": 2
+      },
+      {
+        "value": "PROVIA",
+        "count": 2
+      },
+      {
+        "value": "HAGER",
+        "count": 2
+      },
+      {
+        "value": "JAMESHARDIE",
+        "count": 2
+      }
+    ],
+    "Unilog_Brand": [
+      {
+        "value": "-- No Unilog Brand --",
+        "count": 1000
+      }
+    ],
+    "DIB_Brand": [
+      {
+        "value": "-- No DIB Brand --",
+        "count": 755
+      },
+      {
+        "value": "Philips",
+        "count": 109
+      },
+      {
+        "value": "Diablo",
+        "count": 30
+      },
+      {
+        "value": "DEWALT",
+        "count": 28
+      },
+      {
+        "value": "Leviton",
+        "count": 16
+      },
+      {
+        "value": "Satco",
+        "count": 15
+      },
+      {
+        "value": "Southwire",
+        "count": 14
+      },
+      {
+        "value": "Milwaukee",
+        "count": 9
+      },
+      {
+        "value": "Prime",
+        "count": 5
+      },
+      {
+        "value": "Wiz",
+        "count": 2
+      }
+    ],
+    "Part_Manuf": [
+      {
+        "value": "Phillips Lighting (5831)",
+        "count": 111
+      },
+      {
+        "value": "Milwaukee Accessory (4031)",
+        "count": 108
+      },
+      {
+        "value": "Boise Cascade Building Materials (BOICA)",
+        "count": 85
+      },
+      {
+        "value": "Appliance Dealers Cooperative (APPDE)",
+        "count": 84
+      },
+      {
+        "value": "Kichler Lighting (KICLI)",
+        "count": 56
+      },
+      {
+        "value": "Parksite (6151)",
+        "count": 55
+      },
+      {
+        "value": "Black & Decker/dewlt (2585)",
+        "count": 55
+      },
+      {
+        "value": "Freud Inc (2435)",
+        "count": 46
+      },
+      {
+        "value": "U S Lumber (3073)",
+        "count": 43
+      },
+      {
+        "value": "-",
+        "count": 41
+      }
+    ]
+  },
+  "suspicious_columns": [
+    {
+      "column": "Mfg_Part_Num",
+      "reasons": [
+        "Extremely high cardinality (99.9% unique)"
+      ]
+    },
+    {
+      "column": "Part_Desc",
+      "reasons": [
+        "Extremely high cardinality (99.8% unique)"
+      ]
+    },
+    {
+      "column": "E1_Brand",
+      "reasons": [
+        "Over 50% of non-null values are placeholders"
+      ]
+    },
+    {
+      "column": "Unilog_Brand",
+      "reasons": [
+        "Only one unique non-null value",
+        "Over 50% of non-null values are placeholders"
+      ]
+    },
+    {
+      "column": "DIB_Brand",
+      "reasons": [
+        "Over 50% of non-null values are placeholders"
+      ]
+    }
+  ]
+}

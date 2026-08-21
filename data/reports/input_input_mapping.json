@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "original_columns": [
+    "Mfg_Part_Num",
+    "Part_Desc",
+    "E1_Brand",
+    "Unilog_Brand",
+    "DIB_Brand",
+    "Part_Manuf"
+  ],
+  "mapping": {
+    "Mfg_Part_Num": "part_number",
+    "Part_Desc": "description",
+    "Part_Manuf": "manufacturer",
+    "E1_Brand": "brand",
+    "Unilog_Brand": "brand",
+    "DIB_Brand": "brand"
+  },
+  "canonical_fields_found": [
+    "part_number",
+    "description",
+    "manufacturer"
+  ],
+  "brand_fields_found": [
+    "E1_Brand",
+    "Unilog_Brand",
+    "DIB_Brand"
+  ],
+  "unmapped_fields": []
+}
